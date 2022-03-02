@@ -1,0 +1,206 @@
+.background{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.urna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 2%;
+    gap: 12px;
+    background-color: #848484;
+    border-radius: 5px;
+}
+
+.tela-da-urna{
+    width: 70%;
+    background-color: white;
+}
+
+.core-da-urna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    padding: 2% 0% 2% 0%;
+    border-radius: 5px;
+}
+
+.titulo-da-urna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-justica-eleitoral{
+    width: 100%;
+}
+
+.teclado-da-urna-numerico{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.teclado-da-urna-acoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+}
+
+.botao-numerico{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-numerico>button{
+    width: 80%;
+    padding: 10%;
+    text-align: left;
+    font-size: 2rem;
+    background-color: #282828;
+    color: white;
+    position:relative;
+    display:inline-block;
+    color:#ecf0f1;
+    text-decoration:none;
+    border-radius:5px;
+    border:none;
+    cursor: pointer;
+   
+   
+  
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+  
+    -webkit-box-shadow: 0px 5px 0px #C0C0C0;
+    -moz-box-shadow: 0px 5px 0px #C0C0C0;
+    box-shadow: 0px 5px 0px #C0C0C0;
+}
+
+.botao-numerico>button:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    position:relative;
+    top:5px;
+}
+
+.botao-zero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-zero>button{
+    width: 24%;
+    padding: 3%;
+    text-align: left;
+    font-size: 2rem;
+    background-color: #282828;
+    color: white;
+    position:relative;
+    display:inline-block;
+    color:#ecf0f1;
+    text-decoration:none;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+   
+   
+  
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+  
+    -webkit-box-shadow: 0px 5px 0px #C0C0C0;
+    -moz-box-shadow: 0px 5px 0px #C0C0C0;
+    box-shadow: 0px 5px 0px #C0C0C0;
+  }
+
+.botao-zero>button:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    position:relative;
+    top:5px;
+}
+
+.botao-de-acao{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-de-acao>button{
+    padding: 15%;
+    background-color: #282828;
+    color: black;
+    font-weight: bold;
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+   
+   
+  
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+  
+    -webkit-box-shadow: 0px 5px 0px #C0C0C0;
+    -moz-box-shadow: 0px 5px 0px #C0C0C0;
+    box-shadow: 0px 5px 0px #C0C0C0;
+}
+
+.botao-de-acao>button:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    position:relative;
+    top:5px;
+}
+
+.btn-branco{
+    background-color: #fffff2 !important;
+   }
+
+.btn-corrige{
+    background-color: #FF6200 !important;
+   }
+
+.btn-confirma{
+    background-color: #57C84D !important;
+    }
+
+.caixa-da-logo{
+    width: 30%;
+    display: flex;
+    align-items:center;
+}
+
+.caixa-do-titulo{
+    width: 60%;
+    text-align: center;
+}
+
